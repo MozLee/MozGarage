@@ -20,3 +20,4 @@ function deepClone(obj){
     }
     return tmpObj;
 }
+console.log(deepClone({a:1,b:2}));
