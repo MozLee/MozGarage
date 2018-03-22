@@ -1,3 +1,7 @@
+/**
+ * 深拷贝对象
+ * @param {被拷贝的对象} obj 
+ */
 function deepClone(obj){
     if(typeof obj !=='object'|| obj === null){
         throw new console.error('参数出错');  
@@ -16,7 +20,3 @@ function deepClone(obj){
     }
     return tmpObj;
 }
-
-console.log(deepClone({a:1,b:null}));
-console.log(deepClone([1,2]));
-console.log(deepClone(`aszdasd`));
