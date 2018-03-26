@@ -14,3 +14,4 @@ function inherit(Parent,Child){
     // 子类的constructor改回到子类
     Child.prototype.constructor = Child;
 }
+
