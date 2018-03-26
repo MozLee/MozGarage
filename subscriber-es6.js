@@ -2,7 +2,6 @@ class Subscribe {
     constructor() {
         this.subscribersInfo = {};
     }
-
     /**
      * 订阅者注册
      * @param {订阅者订阅的信息} subscriber 
